@@ -23,6 +23,7 @@ A responsive Weather App built using **React.js** and the **OpenWeatherMap API**
 
 ---
 ## 📁 Project Structure
+
 weather-app/
 │
 ├── public/
