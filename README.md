@@ -1,12 +1,54 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Weather App built using **React.js** and the **OpenWeatherMap API**. This application allows users to search for any city and get real-time weather data including temperature, humidity, min/max temp, and descriptive weather conditions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search by City** – Enter any city name to fetch live weather data
+- 🌡️ **Real-Time Data** – Temperature, humidity, feels like, and more
+- 🌈 **Dynamic UI** – Weather visuals and icons change based on conditions
+- ❌ **Error Handling** – Alerts user if an invalid city is entered
+- 🧩 **Modular Design** – Component-based structure using React
+- 🎨 **Responsive Design** – Built with Material UI and custom CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, JavaScript (ES6+), HTML, CSS
+- **Styling**: Material UI, Custom CSS
+- **API**: [OpenWeatherMap API](https://openweathermap.org/api)
+
+---
+## 📁 Project Structure
+weather-app/
+│
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── WeatherApp.jsx
+│   │   ├── SearchBox.jsx
+│   │   ├── InfoBox.jsx
+│   │   └── ...
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+└── README.md
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/weather-app.git
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
